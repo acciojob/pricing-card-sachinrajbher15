@@ -1,1 +1,40 @@
-/*  your css code here. If applicable */
+body{
+	background-color: pink;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	Height: 100%;
+}
+.card{
+	text-align: center;
+	width: 300px;
+	padding: 20px;
+	background-color: #B692C2;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+	border-radius: 30px;
+}
+.card-image {
+    width: 100%;
+    height: auto;
+}
+.card-title{
+	font-size: 40px;
+	margin: 10px 0;
+}
+.card-price{
+	font-size: 20px;
+	margin: 5px 0;
+}
+.btn{
+	background-color: pink;
+	color: black;
+	font-weight: bold;
+	padding: 15px 40px;
+	font-size: 20px;
+	border: none;
+	border-radius: 45px;
+}
+.btn:hover {
+    background-color: #a11f21;
+	color: white;
+}
